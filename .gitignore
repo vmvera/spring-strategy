@@ -1,16 +1,11 @@
 # Compiled class file
 *.class
 
-# Log file
-*.log
+# Java class files
+*.class
+*.classpath
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
@@ -19,5 +14,67 @@
 *.tar.gz
 *.rar
 
+# Log file
+log/
+*.log
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj
+
+# Generated files
+bin/
+gen/
+out/
+
+# Build Tools
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+target/
+/build/
+build/**
+
+# Linters
+infer-out/
+
+# IntelliJ
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
+*.project
+.settings/
+
+# VSCODE
+.vscode
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+#eclipse
+.factorypath
+
+# DS_Store
+.DS_Store
